@@ -25,12 +25,6 @@ The project analyzes system-level signals such as battery voltage, RTC drift, bo
 
 ## Dataset
 
-The dataset contains 5,000 system telemetry records with 10 features related to CMOS battery health and system behavior. :contentReference[oaicite:0]{index=0}
+The dataset contains 5,000 system telemetry records with 10 features related to CMOS battery health and system behavior. 
 
-## Model
 
-The project experiments with Logistic Regression and Random Forest models. Feature engineering is used to capture relationships between voltage, temperature, system age, RTC drift, and other telemetry signals. :contentReference[oaicite:1]{index=1}
-
-## Evaluation
-
-The main focus is on **Recall for the failure class** and **ROC-AUC**, since missing a potential battery failure is more important than overall accuracy. :contentReference[oaicite:2]{index=2}
